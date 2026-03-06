@@ -1,0 +1,106 @@
+    .html, body{
+        background-color: #DCDCDC;
+    }
+    .header {
+                  background-color: grey;
+                  color: aliceblue;
+                  width: 100%;
+            }
+            h1{
+                text-align: center;
+                font-size: 70px;
+            }
+            .header a{
+                text-decoration: none;
+                color: black;
+                display: block;
+                box-sizing: border-box;
+
+            }
+            .header > ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            .header li{
+                float: left;
+                width: 19%;
+                text-align: center;
+                border-right: 1px solid black;    
+            }
+            .header > ul > li > a:hover{
+                background-color: aliceblue;
+                color: aqua;
+            }
+            .header > ul > li > a{
+                padding: 10px;
+                background: grey;
+            }
+            .header .active{
+                background:aliceblue ;
+                color: aqua;
+            }
+            .header li:last-child{
+                border: none;
+            }
+
+    .hero{
+                
+                background-image: url(peter.jpeg);
+                background-attachment: scroll;
+                background-repeat: no-repeat;
+                background-position: top right;
+                background-size:1300px;
+                height: 1200px device-width;
+                width: 100% device-width;
+                justify-content: center;
+                border: 10px solid black;
+                border-image: url(peter.jpeg) 40;
+                
+                margin-top: 5px;
+            }
+            h2{
+                color: black;
+                text-align: center;
+                justify-content: center; 
+                font-size: 60px;
+                padding-top: 30px;
+            }
+            p{
+                padding-left: 40px;
+                padding-right: 40px;
+                color: rgb(13, 13, 19);
+                font-size: 30px;
+            }
+            .input{ 
+                display: flex;
+                float: left; 
+                padding: 5px;
+                text-align: center;
+                
+
+            }
+    .aboutus{
+        background-color: white;
+        border: solid 3px;
+        margin: 50px;
+        box-sizing: content-box;
+    }
+    .academic{
+        background-color: #E1DBF2;
+       margin-top: auto;
+
+    }
+    .gallery{
+        background: #DCDCDC;
+    }
+    .contact{
+        background-color: #515151;
+    }
+    .footer{
+        background-color: #ACACAC;
+        box-sizing: border-box;
+        border: 1px inset black;
+    }
+    
+            
